@@ -14,7 +14,9 @@ Pour obtenir un environnement de programmation scientifique, Python peut être c
 #### Option 1: installation rapide avec Anaconda (recommandée)
 
 Anaconda est une distribution Python qui inclut de nombreux packages Python pour la programmation scientifique. C'est une façon pratique pour installer et mettre en place son environnement de travail sous n'importe quel système d'exploitation.  
-[Lien pour installer anaconda](https://docs.anaconda.com/anaconda/install/). **Installer Python >=3.5**.   
+[Lien pour installer anaconda](https://docs.anaconda.com/anaconda/install/). **Installer Python >=3.5**.
+
+Vérifiez que vous arrivez à ouvrir un notebook jupyter, comme indiqué [ici](https://docs.anaconda.com/anaconda/user-guide/getting-started/#run-python-in-a-jupyter-notebook).
 
 #### Option 2: installation manuelle   
 
@@ -22,7 +24,9 @@ Une autre solution est:
 - installer Python (version >= 3.5).  
 [Lien sur comment faire une installation propre de Python en fonction de son système d'exploitation](http://docs.python-guide.org/en/latest/starting/installation/).
 - installer les packages complémentaires `numpy`, `scipy`, `matplotlib`, `pandas`, `sklearn`, `seaborn`, `jupyter`
-- de gérer ses environnement virtuels avec [virtualenv](https://virtualenv.pypa.io/en/latest/) et [virtualenvwrapper](http://virtualenvwrapper.readthedocs.io/en/latest/).  
+- de gérer ses environnement virtuels avec [virtualenv](https://virtualenv.pypa.io/en/latest/) et [virtualenvwrapper](http://virtualenvwrapper.readthedocs.io/en/latest/).
+
+Vérifiez que vous arrivez à ouvrir un notebook jupyter, avec la commande `jupyter-notebook` dans le virtualenv.
 
 
 ### Liens
