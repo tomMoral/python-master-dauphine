@@ -1,3 +1,5 @@
+
+
 class Satellite:
     def __init__(self, nom, masse=100, vitesse=0):
         self.nom, self.masse, self.vitesse = nom, masse, vitesse
